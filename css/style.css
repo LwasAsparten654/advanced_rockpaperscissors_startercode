@@ -1,1 +1,23 @@
+#picture{
+    height: 230px;
+    width: 240px;
+}
 
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
