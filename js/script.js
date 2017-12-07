@@ -1,3 +1,23 @@
+var userChoice = 
+["",
+"",
+""
+];
+console.log(userChoice);
+
+var computerChoice = 
+["",
+"",
+""
+];
+console.log(computerChoice);
+
+var choices =
+["rock",
+"paper",
+"scissors"
+];
+console.log(computerChoice);
 //Class 1:
         // Fork and clone the repo and set up your project workspace and link files
         // Write HTML for your project
