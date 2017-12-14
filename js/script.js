@@ -1,3 +1,13 @@
+/*global $*/
+
+$(document).ready(function(){
+        $("button").click(function(){
+                var computerChoice = choices[Math.floor(Math.random()*choices.length)];
+                var userChoice="";
+                
+        });
+});
+
 var userChoice = 
 ["",
 "",
@@ -17,7 +27,9 @@ var choices =
 "paper",
 "scissors"
 ];
-console.log(computerChoice);
+console.log(choices.length);
+
+
 //Class 1:
         // Fork and clone the repo and set up your project workspace and link files
         // Write HTML for your project
